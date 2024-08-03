@@ -218,7 +218,7 @@ while True:
                 for phrase in PLAY_MUSIC:
                     if phrase in text:
                         speak("okay")
-                        play_music()   
+                        play_music()
                         break
 
                 WIKIPEDIA_SEARCH = ["what", "who", "when"]
